@@ -266,30 +266,18 @@ footer i{
     }
 
 /*projekty strony www*/
-body .projekt-img-box-s{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+body .projekt-img-container {
+	margin-top: 50px;
 }
 
-body .projekt-img-d{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+body .projekt-img-box img{
+    max-width: 70%;
+    margin: auto;
+	align-content: center;
+	margin-top: 30px;
 }
    
-body .projekt-img-box-s img{
-    max-width:250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body .projekt-img-box-b img{
-    max-width:300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 body .projekt-img-tytul{
     text-align: center;
     letter-spacing: .1em;
@@ -302,6 +290,14 @@ body .projekt-tytul{
     letter-spacing: 0.02em;
     font-weight: bold;
     margin-top: 50px;
+}
+
+body .projekt-opis{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /*strzałki - projekty na www*/
