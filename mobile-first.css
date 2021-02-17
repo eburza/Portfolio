@@ -155,6 +155,10 @@ body .txt #home-box-1{
         margin-top: 100px;
         text-align: center;
     }
+
+body .txt #home-box-1 h1 span{
+      font-weight: normal;
+    }
     
     /* o mnie*/
     
