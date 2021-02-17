@@ -527,14 +527,10 @@ body .projekt-opis{
     /*behance*/
     
     body #behance-txt{
-        clear: both;
-        float: left;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
         font-size: 18px;
-        
     }
     
     /*kontakt*/
