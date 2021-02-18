@@ -28,9 +28,15 @@ a:hover, a:visited, a:link {
 }
 
 .spacer-50{
-    height:50px;
+    height: 50px;
     width: 100%;
     clear: both;
+}
+
+.spacer-55 {
+  height: 55px;
+  width: 100%;
+  clear: both;
 }
 
 .spacer-100{
