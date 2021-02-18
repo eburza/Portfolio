@@ -44,7 +44,7 @@ a:hover, a:visited, a:link {
     color: dimgray;
 }
 
-h1{
+h1 {
     /*text-decoration: underline;*/
 }
 
@@ -332,12 +332,16 @@ body .projekt-opis{
     margin-top: 50px;
 }
 
+#home-about-opis {
+  width: 100%;
+  float: none;
+  padding-top: 50px;
+}
 
 /* 
 2 ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
-
 @media (min-width: 481px) {
     
     /*header*/
@@ -415,6 +419,7 @@ body .projekt-opis{
     
     body #photo-container img{
         max-width: 300px;
+        width: 330px;
     }
     
     body #home-about-opis h1{
@@ -431,12 +436,8 @@ body .projekt-opis{
 
 }
 
-/* 
-3 ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-
+/* https://devfacts.com/media-queries-breakpoints-2021/ */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     
     /* wstep na strone*/
@@ -453,11 +454,6 @@ body .projekt-opis{
     
     /* o mnie */
     
-    body #photo-container{
-        float:left;
-        max-width: 40%;
-    }
-    
     body #photo-container img{
         max-width: 400px;
     }
@@ -469,11 +465,6 @@ body .projekt-opis{
     body #home-about-opis h1{
     text-align: left;
 }
-
-    body #home-about-opis{
-        float:right;
-        width: 60%
-    }
     
     body #home-about-opis h1{
         margin-top: 0;
@@ -625,23 +616,27 @@ body .projekt-opis{
     
 }
 
-/* 
-4 ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1100px){
+/* https://devfacts.com/media-queries-breakpoints-2021/ */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     
     /*o mnie*/
     
+
+    body #photo-container{
+      float: left;
+      max-width: 40%;
+  }
     
-    body #photo-container #my-photo{
+    body #photo-container #my-photo {
         margin-left: 0;
     }
-    
+
     body #home-about-opis{
-        width: 60%;
-    }
+      float: right;
+      width: 60%;
+      padding-top: 0;
+  }
     
     /*projekt*/
     
@@ -732,4 +727,21 @@ footer #social-icons a {
 }
 body #info-about {
 	font-size: 16px;
+  margin-top: 0;
+}
+
+#signature {
+  text-align: right;
+}
+
+#signature img {
+  border-radius: 0;
+  box-shadow: none;
+  display: inline;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#signature .text {
+  padding-right: 5px;
 }
