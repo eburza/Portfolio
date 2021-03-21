@@ -3,6 +3,7 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    width: 100%;
 }
 
 body {
@@ -140,12 +141,12 @@ body .container-text{
 body .container-tekt-2{
         margin-left: auto;
         margin-right: auto;
-        width: 22em;
+        width: 100%;
         text-align: center;
     }
     
 .img-container-mobile{
-        max-width: 350px;
+        width: 100%;
         margin-bottom: 30px;
     }
     
