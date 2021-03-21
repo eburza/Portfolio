@@ -394,7 +394,7 @@ body .projekt-opis{
     body .container-text{
         margin-left: auto;
         margin-right: auto;
-        width: 26em;
+        width: 100%;
     }
     
     body .container-tekt-2{
